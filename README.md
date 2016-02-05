@@ -39,10 +39,10 @@ $(function() {
 The value of each option for the location selection is the legal drinking age for each corresponding country.
 Drinking ages were derived from the alphabetized list found on  [Procon.org](http://drinkingage.procon.org/view.resource.php?resourceID=004294)
 
-* `<option value="21" selected>United States</option>`
-* `<option value="1000">Afghanistan</option>`
-* `<option value="18">Denmark</option>`
-* `<option value="0">Cambodia</option>`
+* United States, 21 Years or Older `<option value="21" selected>United States</option>`
+* Afganistan, Alcohol Prohibited `<option value="1000">Afghanistan</option>`
+* Denmark, 18 Years or Older `<option value="18">Denmark</option>`
+* Cambodia, just gotta be alive `<option value="0">Cambodia</option>`
 
 
 
