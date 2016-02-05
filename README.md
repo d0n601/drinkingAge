@@ -4,10 +4,12 @@ A client side implementation of an age resitriction gateway to filter visitors b
 ## Purpose
 This script was developed specifically for alcohol related sites. When a user inputs their birthday, their age is calculated, and then compared with the drinking age of their selected location. This allows the site owner's to determine if visitors are of legal age in their place of residence.
 Esentially, this goes slightly further than asking "Are you of Drinking Age, Yes/No" or simply enforcing a 21 and over policy.
+######Why not server side?
+Search engine crawlers will not be restricted from viewing the site's content with a client side gateway such as this. which is pretty important.
 
 
 ## Installation
-1. Include Depencencies
+1. Include Dependencies
    1. [jQuery](https://jquery.com/download/)
    2. [Bootstrap 3](http://getbootstrap.com/getting-started/)
 
