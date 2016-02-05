@@ -9,7 +9,7 @@ Esentially, this goes slightly further than asking "Are you of Drinking Age, Yes
 ## Installation
 1. Include Depencencies
    1. [jQuery](https://jquery.com/download/)
-   2. [Bootstrap 3])(http://getbootstrap.com/getting-started/)
+   2. [Bootstrap 3](http://getbootstrap.com/getting-started/)
 
 2. Insert bouncer script and style 
    1. Place bouncer.css in site's head `<link href="css/bouncer.css" rel="stylesheet">`
