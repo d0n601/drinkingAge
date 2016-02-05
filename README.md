@@ -48,3 +48,4 @@ Drinking ages were derived from the alphabetized list found on  [Procon.org](htt
 
 
 ## Demo
+[Example](https://rawgit.com/d0n601/drinkingAge/master/example/index.html)
