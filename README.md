@@ -1,5 +1,5 @@
 # drinkingAge
-A client side implementation of an age resitriction gateway to filter visitors by drinking age in their region. 
+A client side implementation of an age resitriction gateway to filter visitors by drinking age. 
 
 ## Purpose
 This script was developed specifically for alcohol related sites. When a user inputs their birthday, their age is calculated, and then compared with the drinking age of their selected location. This allows the site owner's to determine if visitors are of legal age in their place of residence.
@@ -7,17 +7,15 @@ Esentially, this goes slightly further than asking "Are you of Drinking Age, Yes
 
 
 ## Installation
+1. Include Depencencies
+   1. jQuery
+   2. Bootstrap 3
 
-####Depencencies
-*jQuery
-*Bootstrap 3
+2. Insert bouncer script and style 
+   1. Place bouncer.css in site's head `<link href="css/bouncer.css" rel="stylesheet">`
+   2. Place bouncer.js before the close of the body `<script src="js/bouncer.js"></script>`
 
-####Include files
-`<link href="css/bouncer.css" rel="stylesheet">`
-and
-`<script src="js/bouncer.js"></script>`
-
-####Initialize and Configure
+3. Initialize and Configure
 `
 $(function() {
 
@@ -41,10 +39,10 @@ $(function() {
 The value of each option for the location selection is the legal drinking age for each corresponding country.
 Drinking ages were derived from the alphabetized list found on  [Procon.org](http://drinkingage.procon.org/view.resource.php?resourceID=004294)
 
-`<option value="21" selected>United States</option>`
-`<option value="1000">Afghanistan</option>`
-`<option value="18">Denmark</option>`
-`<option value="0">Cambodia</option>`
+* `<option value="21" selected>United States</option>`
+* `<option value="1000">Afghanistan</option>`
+* `<option value="18">Denmark</option>`
+* `<option value="0">Cambodia</option>`
 
 
 
