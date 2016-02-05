@@ -18,7 +18,8 @@ and
 `<script src="js/bouncer.js"></script>`
 
 ####Initialize and Configure
-`$(function() {
+`
+$(function() {
 
 	//Settings for drinkingAge Plugin
 	var settings = {
@@ -32,7 +33,8 @@ and
 	//Initiate bouncer.js (drinkingAge)
 	drinkingAge(settings);
 
-});`
+});
+`
 
 
 ## How it works
