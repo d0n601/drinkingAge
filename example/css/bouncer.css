@@ -1,0 +1,55 @@
+/* 
+ * Plugin: bouncer.js
+ * Description: Style sheet for bouncer js window appearance
+ * Author: Ryan Kozak
+ * Author's website: https://ryankozak.com
+ * 
+ */
+
+
+.spacers {
+    margin:10px;
+}
+#age_controls {
+    z-index:1032;
+    color:#FFF;
+    position:fixed;
+    top:0;
+    left:0;
+    opacity:1.0 !important;
+    background-color:#1F1B1C;
+    margin:15vh 25vw;
+    width:50vw;
+    min-width:320px;
+    line-height:1.5em;
+    border-radius:5px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FFF;
+    padding:35px;
+    display:none;
+}
+select {
+    color:#000;
+}
+#age_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: .9;
+    z-index:1031;
+    display:none;
+}
+
+#deny_entry {
+    z-index:10000;
+    top:0;
+    left:0;
+    position:absolute;
+    width:100vw;
+    text-align:center;
+    font-weight:900;
+}

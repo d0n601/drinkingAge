@@ -1,0 +1,52 @@
+<html>
+  <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" context="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <title>Drinks N' Alcohol</title>
+
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bouncer.css" rel="stylesheet">
+
+        <style>
+            body {
+                text-align:center;
+                color:#FFF;
+                background-image: url('img/drankin.jpg');
+                background-size: cover;
+            }
+        </style>
+    
+    </head>
+
+<body>
+
+    <h1>Alcoholic Material</h1>
+    <p>Restricted stuff involving drinking within...</p>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="js/bouncer.js"></script>
+
+    <script>
+        $(function() {
+
+            //Settings for Bounder.js Plugin
+            var settings = {
+                            "image" : 'http://placehold.it/350x150',
+                            "message" : "As part of our commitment to responsible drinking, we just need to check that you're of legal drinking age.",
+                            "redirect" : 'http://responsibility.org',
+                            "deny_message" : "Sorry, but you are not of legal drinking age.",
+                            "link_terms" : '/terms',
+                            "link_privacy" : '/privacy'
+                        };
+            //Initiate Bouncer.js
+            drinkingAge(settings);
+
+    });
+    </script>
+
+</body>
+
+</html>
