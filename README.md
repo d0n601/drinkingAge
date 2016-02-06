@@ -38,7 +38,7 @@ $(function() {
 
 ## How it works
 The value of each option for the location selection is the legal drinking age for each corresponding country.
-Drinking ages were derived from the alphabetized list found on  [Procon.org](http://drinkingage.procon.org/view.resource.php?resourceID=004294). If the user's birthday is greater than the drinking age of the country, and access cookie is generated. 
+Drinking ages were derived from the alphabetized list found on  [Procon.org](http://drinkingage.procon.org/view.resource.php?resourceID=004294). If the user's birthday is greater than the drinking age of the country, an access cookie is generated. 
 
 * United States, 21 Years or Older `<option value="21" selected>United States</option>`
 * Afganistan, Alcohol Prohibited `<option value="1000">Afghanistan</option>`
