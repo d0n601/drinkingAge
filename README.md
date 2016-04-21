@@ -22,14 +22,15 @@ Search engine crawlers will not be restricted from viewing the site's content wi
 $(function() {
 
 	//Settings for drinkingAge Plugin
-	var settings = {
-					"image"	: 'assets/img/logo-small.png',
-					"message" : "As part of our commitment to responsible drinking, we just need to check that you're of legal drinking age.",
-					"redirect" : 'http://responsibility.org',
-					"deny_message" : "Sorry, but you are not of legal drinking age.",
-					"link_terms" : '/terms',
-					"link_privacy" : '/privacy'
-				};
+        var settings = {
+                        "image" : 'http://placehold.it/350x150',
+                        "message" : "As part of our commitment to responsible drinking, we just need to check that you're of legal drinking age.",
+                        "redirect" : 'http://responsibility.org',
+                        "deny_message" : "Sorry, but you are not of legal drinking age.<br>You'll be redirected soon...",
+                        "deny_timeout": 5000,
+                        "link_terms" : '/terms',
+                        "link_privacy" : '/privacy'
+                    };
 	//Initiate bouncer.js (drinkingAge)
 	drinkingAge(settings);
 });
