@@ -76,11 +76,14 @@ function submitAge()
 
 function denyEntry() {
     var err_msg;
-
-    err_msg = "<div id='deny_entry' class='alert alert-danger'<a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>";
+    err_msg = "<div id='deny_entry' class='alert alert-danger'><a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>";
     err_msg+=config.deny_message;
     err_msg+= "</div>";
-    $('body').prepend(err_msg).delay(2000);
+    $('body').prepend(err_msg);
+    setTimeout('denyRedirect()', config.deny_timeout);
+}
+
+function denyRedirect() {
     window.location = config.redirect;
 }
 

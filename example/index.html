@@ -7,7 +7,7 @@
         <title>Drinks N' Alcohol</title>
 
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/bouncer.css" rel="stylesheet">
+        <link href="..//bouncer.css" rel="stylesheet">
 
         <style>
             body {
@@ -27,7 +27,7 @@
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script src="js/bouncer.js"></script>
+    <script src="../bouncer.js"></script>
 
     <script>
         $(function() {
@@ -37,7 +37,8 @@
                             "image" : 'http://placehold.it/350x150',
                             "message" : "As part of our commitment to responsible drinking, we just need to check that you're of legal drinking age.",
                             "redirect" : 'http://responsibility.org',
-                            "deny_message" : "Sorry, but you are not of legal drinking age.",
+                            "deny_message" : "Sorry, but you are not of legal drinking age.<br>You'll be redirected soon...",
+                            "deny_timeout": 5000,
                             "link_terms" : '/terms',
                             "link_privacy" : '/privacy'
                         };
