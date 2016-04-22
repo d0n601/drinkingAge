@@ -147,7 +147,7 @@ function insertHTML() {
     html+="                        <option value='31'>31</option>";
     html+="                    </select>";
     html+="                    <select id='a_year'>";
-    html+="                        <option value='-1'>Year</option>";
+    html+="                        <option value='3000'>Year</option>";
     html+="                        <option value='2001'>2001</option>";
     html+="                        <option value='2000'>2000</option>";
     html+="                        <option value='1999'>1999</option>";
