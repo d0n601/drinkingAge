@@ -50,7 +50,7 @@ function setCookie(cname, cvalue, exdays)
 
 function submitAge()
 {
-    var month,day,year, today, birthday, age, dinkAge;
+    var month,day,year, today, birthday, age, drinkAge;
 
     drinkAge = $("#country").val();
 
